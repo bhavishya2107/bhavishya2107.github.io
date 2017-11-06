@@ -1,0 +1,154 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Gallery</title>
+    </head>
+        <link rel="stylesheet" href="style.css">
+   
+    
+
+    <style>
+        img{
+            width: 150px;
+            height: 150px;
+        }
+        th
+        {
+            font-size: 2em;
+            background-color: black;
+            padding: 20px;
+            color: white;
+        }
+        body{
+            font-family: sans-serif;
+            font-size: 1em;
+            text-align: center;
+            background-color: darkgrey;
+        }
+        table{
+          
+            background-color:  #e8e6e5;
+            width: 80%;
+            height: 800px;
+        }
+        td{
+            padding: 1px;
+        }
+        p {
+            display: block;
+             margin-top: 5px;
+             margin-bottom: 1em;
+            margin-left: 5px;
+           margin-right: 0;
+         } 
+      
+        menu
+        {
+            width:80%;
+            background-color: black;
+        }
+        a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.previous {
+    background-color:darkgray;
+    color: black;
+}
+
+.next {
+    background-color:darkgray;
+    color: black;
+}
+
+  </style>
+        
+    
+    <body>
+        <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="gal.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="index1.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+
+ 
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+       
+         <table align="center">
+           
+            <tr>
+                <th colspan="4" >About Website</th>
+            
+            </tr>
+           
+           
+            <tr>
+                
+                <td><img src="Gujarat-2.jpg" align="left" float="top" width="600px" height="600px"><p align="left" float="top">HEY THIS IS GUJARATswjncjwbjbjbfjn<br>
+                    dnwnjffwbewvijw ebjvbwjv<br></p></td>
+               
+            </tr>
+             
+        </table>
+            <nav class="next">
+        <a href="gal.html" class="previous"> &laquo;Back To MainPage</a>
+
+            </nav>
+        <nav class="navbar1">
+        <ul class="navbar-nav">
+        <li ><a ><b ><font size="6px">GET IN TOUCH</font></b></a></li>
+        <li><a href="https://www.facebook.com/bhavishya2107"><img src="Facebook.png"/></a></li>
+        <li><a href="https://twitter.com/bhavishya2107"><img src="Twitter.png"/></a></li>
+        <li><a href="https://www.instagram.com/bhavishya2107/"><img src="Instagram.png"/></a></li>
+        <li><a href="https://www.linkedin.com/in/bhavishya-negi-456314106/"><img src="Linkedin.png"/></a></li>
+        <li><a href="https://google.com/+BhavishyaNegi2107"><img src="Google+.png"/></a></li>
+        </ul>
+        </nav>
+        
+ 
+
+ 
+
+ 
+  
+    </body>
+</html>
