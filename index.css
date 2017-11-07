@@ -9,8 +9,9 @@ html,body{
 body{
     background-color:white;
     background-image: url(tour1.jpg);
-     background-size: cover;
+     background-size: 1310px 700px;
     background-position: center;
+     background-repeat: no-repeat;
     
     
 }
